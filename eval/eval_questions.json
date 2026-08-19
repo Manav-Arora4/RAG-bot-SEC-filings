@@ -1,0 +1,147 @@
+[
+  {
+    "id": "q01_aapl_net_sales",
+    "question": "What were Apple's total net sales in fiscal year 2023?",
+    "ticker": "AAPL",
+    "category": "factual_financial",
+    "ground_truth_answer": "In fiscal year 2023, Apple reported total net sales of $383,285 million (approximately $383.3 billion).",
+    "expected_keywords": ["383,285", "383.3"],
+    "expected_sources": ["AAPL_2023"]
+  },
+  {
+    "id": "q02_aapl_iphone_sales",
+    "question": "How much revenue did Apple generate from iPhone sales in fiscal 2023?",
+    "ticker": "AAPL",
+    "category": "factual_financial",
+    "ground_truth_answer": "Apple generated $200,583 million in net sales from iPhone in fiscal 2023.",
+    "expected_keywords": ["200,583", "200.6"],
+    "expected_sources": ["AAPL_2023"]
+  },
+  {
+    "id": "q03_aapl_services_revenue",
+    "question": "What was Apple's Services net sales in fiscal year 2023?",
+    "ticker": "AAPL",
+    "category": "factual_financial",
+    "ground_truth_answer": "Apple reported Services net sales of $85,200 million in fiscal year 2023, an increase of 9% compared to 2022.",
+    "expected_keywords": ["85,200", "85.2"],
+    "expected_sources": ["AAPL_2023"]
+  },
+  {
+    "id": "q04_aapl_rnd_expense",
+    "question": "What were Apple's research and development (R&D) expenses in fiscal 2023?",
+    "ticker": "AAPL",
+    "category": "factual_financial",
+    "ground_truth_answer": "Apple spent $29,915 million on research and development in fiscal 2023.",
+    "expected_keywords": ["29,915"],
+    "expected_sources": ["AAPL_2023"]
+  },
+  {
+    "id": "q05_msft_total_revenue",
+    "question": "What was Microsoft's total revenue for fiscal year 2023?",
+    "ticker": "MSFT",
+    "category": "factual_financial",
+    "ground_truth_answer": "Microsoft reported total revenue of $211,915 million (or $211.9 billion) for fiscal year 2023.",
+    "expected_keywords": ["211,915", "211.9"],
+    "expected_sources": ["MSFT_2023"]
+  },
+  {
+    "id": "q06_msft_intelligent_cloud",
+    "question": "What was the revenue for Microsoft's Intelligent Cloud segment in fiscal 2023?",
+    "ticker": "MSFT",
+    "category": "factual_financial",
+    "ground_truth_answer": "Microsoft's Intelligent Cloud segment revenue was $87,907 million in fiscal year 2023.",
+    "expected_keywords": ["87,907", "87.9"],
+    "expected_sources": ["MSFT_2023"]
+  },
+  {
+    "id": "q07_msft_rnd_expense",
+    "question": "How much did Microsoft spend on research and development in fiscal 2023?",
+    "ticker": "MSFT",
+    "category": "factual_financial",
+    "ground_truth_answer": "Microsoft's research and development expenses were $27,195 million in fiscal year 2023.",
+    "expected_keywords": ["27,195"],
+    "expected_sources": ["MSFT_2023"]
+  },
+  {
+    "id": "q08_tsla_total_revenue",
+    "question": "What were Tesla's total revenues in fiscal year 2023?",
+    "ticker": "TSLA",
+    "category": "factual_financial",
+    "ground_truth_answer": "Tesla reported total revenues of $96,773 million (approximately $96.8 billion) in fiscal year 2023.",
+    "expected_keywords": ["96,773", "96.8"],
+    "expected_sources": ["TSLA_2023"]
+  },
+  {
+    "id": "q09_tsla_automotive_revenue",
+    "question": "What were Tesla's total automotive revenues in 2023?",
+    "ticker": "TSLA",
+    "category": "factual_financial",
+    "ground_truth_answer": "Tesla's total automotive revenues were $82,419 million in fiscal year 2023.",
+    "expected_keywords": ["82,419"],
+    "expected_sources": ["TSLA_2023"]
+  },
+  {
+    "id": "q10_jpm_total_net_revenue",
+    "question": "What was JPMorgan Chase's total net revenue for 2023?",
+    "ticker": "JPM",
+    "category": "factual_financial",
+    "ground_truth_answer": "JPMorgan Chase reported total net revenue of $158,104 million ($158.1 billion) for 2023.",
+    "expected_keywords": ["158,104", "158.1"],
+    "expected_sources": ["JPM_2023"]
+  },
+  {
+    "id": "q11_jpm_net_income",
+    "question": "What was JPMorgan Chase's net income in 2023?",
+    "ticker": "JPM",
+    "category": "factual_financial",
+    "ground_truth_answer": "JPMorgan Chase reported net income of $49.6 billion (or $49,552 million) in 2023.",
+    "expected_keywords": ["49.6", "49,552", "49,600"],
+    "expected_sources": ["JPM_2023"]
+  },
+  {
+    "id": "q12_wmt_total_revenue",
+    "question": "What were Walmart's total revenues in fiscal year 2023?",
+    "ticker": "WMT",
+    "category": "factual_financial",
+    "ground_truth_answer": "Walmart's total revenues were $611,289 million (approximately $611.3 billion) in fiscal year 2023.",
+    "expected_keywords": ["611,289", "611.3"],
+    "expected_sources": ["WMT_2023"]
+  },
+  {
+    "id": "q13_aapl_supply_chain_risks",
+    "question": "What supply chain and manufacturing dependencies does Apple mention in its risk factors?",
+    "ticker": "AAPL",
+    "category": "qualitative_strategic",
+    "ground_truth_answer": "Apple notes significant dependence on third-party outsourcing partners primarily located in Asia, including mainland China, India, Japan, South Korea, Taiwan, and Vietnam, along with single-source component suppliers.",
+    "expected_keywords": ["outsourcing", "China", "manufacturing", "supply"],
+    "expected_sources": ["AAPL_2023"]
+  },
+  {
+    "id": "q14_msft_ai_risks",
+    "question": "What risks does Microsoft identify regarding its artificial intelligence (AI) investments?",
+    "ticker": "MSFT",
+    "category": "qualitative_strategic",
+    "ground_truth_answer": "Microsoft identifies significant development and operational costs associated with AI, intense competition, operational risks in cloud execution, and potential challenges in achieving expected returns on AI and platform investments.",
+    "expected_keywords": ["artificial intelligence", "AI", "costs", "competition"],
+    "expected_sources": ["MSFT_2023"]
+  },
+  {
+    "id": "q15_compare_aapl_msft_revenue",
+    "question": "Compare the total revenues of Apple and Microsoft in fiscal year 2023. Which company had higher revenue?",
+    "ticker": null,
+    "category": "comparative",
+    "ground_truth_answer": "In fiscal 2023, Apple had higher total revenue ($383,285 million) compared to Microsoft ($211,915 million).",
+    "expected_keywords": ["383,285", "211,915", "Apple"],
+    "expected_sources": ["AAPL_2023", "MSFT_2023"]
+  },
+  {
+    "id": "q16_negative_amazon_revenue",
+    "question": "What were Amazon's AWS cloud revenues in fiscal year 2023?",
+    "ticker": "AMZN",
+    "category": "negative_refusal",
+    "ground_truth_answer": "The system cannot determine the answer from the provided context because Amazon (AMZN) filings are not included in the corpus.",
+    "expected_keywords": ["cannot", "not provided", "not contain", "context"],
+    "expected_sources": []
+  }
+]
+

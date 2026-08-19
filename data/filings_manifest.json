@@ -1,0 +1,57 @@
+[
+  {
+    "ticker": "AAPL",
+    "company": "Apple Inc.",
+    "fiscal_year": 2023,
+    "form": "10-K",
+    "accession_number": "0000320193-23-000106",
+    "filing_date": "2023-11-03",
+    "report_date": "2023-09-30",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+    "local_path": "data\\raw\\AAPL_2023.txt"
+  },
+  {
+    "ticker": "MSFT",
+    "company": "MICROSOFT CORP",
+    "fiscal_year": 2023,
+    "form": "10-K",
+    "accession_number": "0000950170-23-035122",
+    "filing_date": "2023-07-27",
+    "report_date": "2023-06-30",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+    "local_path": "data\\raw\\MSFT_2023.txt"
+  },
+  {
+    "ticker": "JPM",
+    "company": "JPMORGAN CHASE & CO",
+    "fiscal_year": 2023,
+    "form": "10-K",
+    "accession_number": "0000019617-24-000225",
+    "filing_date": "2024-02-16",
+    "report_date": "2023-12-31",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/19617/000001961724000225/jpm-20231231.htm",
+    "local_path": "data\\raw\\JPM_2023.txt"
+  },
+  {
+    "ticker": "TSLA",
+    "company": "Tesla, Inc.",
+    "fiscal_year": 2023,
+    "form": "10-K",
+    "accession_number": "0001628280-24-002390",
+    "filing_date": "2024-01-29",
+    "report_date": "2023-12-31",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm",
+    "local_path": "data\\raw\\TSLA_2023.txt"
+  },
+  {
+    "ticker": "WMT",
+    "company": "Walmart Inc.",
+    "fiscal_year": 2023,
+    "form": "10-K",
+    "accession_number": "0000104169-23-000020",
+    "filing_date": "2023-03-17",
+    "report_date": "2023-01-31",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/104169/000010416923000020/wmt-20230131.htm",
+    "local_path": "data\\raw\\WMT_2023.txt"
+  }
+]

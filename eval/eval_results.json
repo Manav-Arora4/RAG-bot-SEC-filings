@@ -1,0 +1,687 @@
+{
+  "total_questions": 16,
+  "top_k": 5,
+  "skip_generation": false,
+  "model": "openai/gpt-oss-120b",
+  "retrieval": {
+    "hit_at_1": 1.0,
+    "hit_at_3": 1.0,
+    "hit_at_k": 1.0,
+    "mrr": 1.0,
+    "keyword_recall": 0.8125
+  },
+  "generation": {
+    "grounding_accuracy": 0.8125,
+    "citation_validity": 1.0
+  },
+  "results": [
+    {
+      "id": "q01_aapl_net_sales",
+      "question": "What were Apple's total net sales in fiscal year 2023?",
+      "category": "factual_financial",
+      "ticker": "AAPL",
+      "retrieval": {
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "keyword_recall": 1.0,
+        "first_hit_rank": 1,
+        "retrieved_sources": [
+          "AAPL_2023",
+          "AAPL_2023",
+          "AAPL_2023",
+          "AAPL_2023",
+          "AAPL_2023"
+        ]
+      },
+      "generation": {
+        "grounding_score": 1.0,
+        "citation_valid": 1.0,
+        "cited_chunk_count": 0,
+        "found_keywords": [
+          "383,285"
+        ],
+        "answer_preview": "Apple’s total net sales for fiscal year 2023 were **$383,285 million**【2†L9-L13】【3†L4-L7】"
+      },
+      "raw_generation": {
+        "answer": "Apple’s total net sales for fiscal year 2023 were **$383,285 million**【2†L9-L13】【3†L4-L7】",
+        "citations": [
+          "[1] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0029) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[2] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0036) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[3] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0032) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[4] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0028) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[5] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0027) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm"
+        ],
+        "cited_chunk_ids": []
+      }
+    },
+    {
+      "id": "q02_aapl_iphone_sales",
+      "question": "How much revenue did Apple generate from iPhone sales in fiscal 2023?",
+      "category": "factual_financial",
+      "ticker": "AAPL",
+      "retrieval": {
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "keyword_recall": 1.0,
+        "first_hit_rank": 1,
+        "retrieved_sources": [
+          "AAPL_2023",
+          "AAPL_2023",
+          "AAPL_2023",
+          "AAPL_2023",
+          "AAPL_2023"
+        ]
+      },
+      "generation": {
+        "grounding_score": 1.0,
+        "citation_valid": 1.0,
+        "cited_chunk_count": 0,
+        "found_keywords": [
+          "200,583"
+        ],
+        "answer_preview": "Apple generated **$200,583 million** in iPhone net sales in fiscal 2023【5†L1-L4】."
+      },
+      "raw_generation": {
+        "answer": "Apple generated **$200,583 million** in iPhone net sales in fiscal 2023【5†L1-L4】.",
+        "citations": [
+          "[1] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0036) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[2] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0029) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[3] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0032) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[4] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0028) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[5] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0027) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm"
+        ],
+        "cited_chunk_ids": []
+      }
+    },
+    {
+      "id": "q03_aapl_services_revenue",
+      "question": "What was Apple's Services net sales in fiscal year 2023?",
+      "category": "factual_financial",
+      "ticker": "AAPL",
+      "retrieval": {
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "keyword_recall": 1.0,
+        "first_hit_rank": 1,
+        "retrieved_sources": [
+          "AAPL_2023",
+          "AAPL_2023",
+          "AAPL_2023",
+          "AAPL_2023",
+          "AAPL_2023"
+        ]
+      },
+      "generation": {
+        "grounding_score": 1.0,
+        "citation_valid": 1.0,
+        "cited_chunk_count": 0,
+        "found_keywords": [
+          "85,200"
+        ],
+        "answer_preview": "Apple’s Services net sales for fiscal year 2023 were **$85,200 million**【1†L9-L12】."
+      },
+      "raw_generation": {
+        "answer": "Apple’s Services net sales for fiscal year 2023 were **$85,200 million**【1†L9-L12】.",
+        "citations": [
+          "[1] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0036) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[2] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0028) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[3] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0029) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[4] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0032) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[5] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0027) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm"
+        ],
+        "cited_chunk_ids": []
+      }
+    },
+    {
+      "id": "q04_aapl_rnd_expense",
+      "question": "What were Apple's research and development (R&D) expenses in fiscal 2023?",
+      "category": "factual_financial",
+      "ticker": "AAPL",
+      "retrieval": {
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "keyword_recall": 1.0,
+        "first_hit_rank": 1,
+        "retrieved_sources": [
+          "AAPL_2023",
+          "MSFT_2023",
+          "TSLA_2023",
+          "AAPL_2023",
+          "AAPL_2023"
+        ]
+      },
+      "generation": {
+        "grounding_score": 1.0,
+        "citation_valid": 1.0,
+        "cited_chunk_count": 0,
+        "found_keywords": [
+          "29,915"
+        ],
+        "answer_preview": "Apple’s research and development expense for fiscal 2023 was **$29,915 million** (approximately $29.9 billion)【5†L31-L33】."
+      },
+      "raw_generation": {
+        "answer": "Apple’s research and development expense for fiscal 2023 was **$29,915 million** (approximately $29.9 billion)【5†L31-L33】.",
+        "citations": [
+          "[1] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0029) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[2] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0047) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+          "[3] Tesla, Inc. (TSLA) FY2023 10-K (TSLA_2023_0049) — https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm",
+          "[4] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0036) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[5] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0032) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm"
+        ],
+        "cited_chunk_ids": []
+      }
+    },
+    {
+      "id": "q05_msft_total_revenue",
+      "question": "What was Microsoft's total revenue for fiscal year 2023?",
+      "category": "factual_financial",
+      "ticker": "MSFT",
+      "retrieval": {
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "keyword_recall": 1.0,
+        "first_hit_rank": 1,
+        "retrieved_sources": [
+          "MSFT_2023",
+          "MSFT_2023",
+          "MSFT_2023",
+          "MSFT_2023",
+          "MSFT_2023"
+        ]
+      },
+      "generation": {
+        "grounding_score": 1.0,
+        "citation_valid": 1.0,
+        "cited_chunk_count": 0,
+        "found_keywords": [
+          "211,915"
+        ],
+        "answer_preview": "Microsoft’s total revenue for fiscal year 2023 was **$211,915 million** (approximately $212 billion)【3†L1-L4】."
+      },
+      "raw_generation": {
+        "answer": "Microsoft’s total revenue for fiscal year 2023 was **$211,915 million** (approximately $212 billion)【3†L1-L4】.",
+        "citations": [
+          "[1] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0078) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+          "[2] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0047) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+          "[3] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0084) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+          "[4] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0045) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+          "[5] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0041) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm"
+        ],
+        "cited_chunk_ids": []
+      }
+    },
+    {
+      "id": "q06_msft_intelligent_cloud",
+      "question": "What was the revenue for Microsoft's Intelligent Cloud segment in fiscal 2023?",
+      "category": "factual_financial",
+      "ticker": "MSFT",
+      "retrieval": {
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "keyword_recall": 1.0,
+        "first_hit_rank": 1,
+        "retrieved_sources": [
+          "MSFT_2023",
+          "MSFT_2023",
+          "MSFT_2023",
+          "MSFT_2023",
+          "MSFT_2023"
+        ]
+      },
+      "generation": {
+        "grounding_score": 1.0,
+        "citation_valid": 1.0,
+        "cited_chunk_count": 0,
+        "found_keywords": [
+          "87,907"
+        ],
+        "answer_preview": "Microsoft’s Intelligent Cloud segment generated **$87,907 million** in revenue for fiscal year 2023【1†L4-L7】."
+      },
+      "raw_generation": {
+        "answer": "Microsoft’s Intelligent Cloud segment generated **$87,907 million** in revenue for fiscal year 2023【1†L4-L7】.",
+        "citations": [
+          "[1] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0084) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+          "[2] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0078) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+          "[3] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0045) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+          "[4] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0041) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+          "[5] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0047) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm"
+        ],
+        "cited_chunk_ids": []
+      }
+    },
+    {
+      "id": "q07_msft_rnd_expense",
+      "question": "How much did Microsoft spend on research and development in fiscal 2023?",
+      "category": "factual_financial",
+      "ticker": "MSFT",
+      "retrieval": {
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "keyword_recall": 1.0,
+        "first_hit_rank": 1,
+        "retrieved_sources": [
+          "MSFT_2023",
+          "MSFT_2023",
+          "TSLA_2023",
+          "MSFT_2023",
+          "MSFT_2023"
+        ]
+      },
+      "generation": {
+        "grounding_score": 1.0,
+        "citation_valid": 1.0,
+        "cited_chunk_count": 0,
+        "found_keywords": [
+          "27,195"
+        ],
+        "answer_preview": "Microsoft’s research and development expense for fiscal 2023 was $27,195 million (approximately $27.2 billion)【1†L1-L4】."
+      },
+      "raw_generation": {
+        "answer": "Microsoft’s research and development expense for fiscal 2023 was $27,195 million (approximately $27.2 billion)【1†L1-L4】.",
+        "citations": [
+          "[1] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0047) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+          "[2] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0078) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+          "[3] Tesla, Inc. (TSLA) FY2023 10-K (TSLA_2023_0049) — https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm",
+          "[4] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0041) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+          "[5] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0045) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm"
+        ],
+        "cited_chunk_ids": []
+      }
+    },
+    {
+      "id": "q08_tsla_total_revenue",
+      "question": "What were Tesla's total revenues in fiscal year 2023?",
+      "category": "factual_financial",
+      "ticker": "TSLA",
+      "retrieval": {
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "keyword_recall": 1.0,
+        "first_hit_rank": 1,
+        "retrieved_sources": [
+          "TSLA_2023",
+          "TSLA_2023",
+          "TSLA_2023",
+          "AAPL_2023",
+          "TSLA_2023"
+        ]
+      },
+      "generation": {
+        "grounding_score": 1.0,
+        "citation_valid": 1.0,
+        "cited_chunk_count": 0,
+        "found_keywords": [
+          "96,773",
+          "96.8"
+        ],
+        "answer_preview": "Tesla reported total revenues of $96,773 million (≈ $96.8 billion) for fiscal year 2023, comprising $90,738 million from the automotive segment and $6"
+      },
+      "raw_generation": {
+        "answer": "Tesla reported total revenues of $96,773 million (≈ $96.8 billion) for fiscal year 2023, comprising $90,738 million from the automotive segment and $6,035 million from the energy generation and storage segment【3†L13-L20】.",
+        "citations": [
+          "[1] Tesla, Inc. (TSLA) FY2023 10-K (TSLA_2023_0047) — https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm",
+          "[2] Tesla, Inc. (TSLA) FY2023 10-K (TSLA_2023_0040) — https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm",
+          "[3] Tesla, Inc. (TSLA) FY2023 10-K (TSLA_2023_0099) — https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm",
+          "[4] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0029) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[5] Tesla, Inc. (TSLA) FY2023 10-K (TSLA_2023_0048) — https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm"
+        ],
+        "cited_chunk_ids": []
+      }
+    },
+    {
+      "id": "q09_tsla_automotive_revenue",
+      "question": "What were Tesla's total automotive revenues in 2023?",
+      "category": "factual_financial",
+      "ticker": "TSLA",
+      "retrieval": {
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "keyword_recall": 0.0,
+        "first_hit_rank": 1,
+        "retrieved_sources": [
+          "TSLA_2023",
+          "TSLA_2023",
+          "TSLA_2023",
+          "TSLA_2023",
+          "TSLA_2023"
+        ]
+      },
+      "generation": {
+        "grounding_score": 0.0,
+        "citation_valid": 1.0,
+        "cited_chunk_count": 0,
+        "found_keywords": [],
+        "answer_preview": "Tesla reported total automotive (including services and other) revenue of **$90.738 billion** for 2023【5†L1-L4】."
+      },
+      "raw_generation": {
+        "answer": "Tesla reported total automotive (including services and other) revenue of **$90.738 billion** for 2023【5†L1-L4】.",
+        "citations": [
+          "[1] Tesla, Inc. (TSLA) FY2023 10-K (TSLA_2023_0047) — https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm",
+          "[2] Tesla, Inc. (TSLA) FY2023 10-K (TSLA_2023_0046) — https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm",
+          "[3] Tesla, Inc. (TSLA) FY2023 10-K (TSLA_2023_0062) — https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm",
+          "[4] Tesla, Inc. (TSLA) FY2023 10-K (TSLA_2023_0040) — https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm",
+          "[5] Tesla, Inc. (TSLA) FY2023 10-K (TSLA_2023_0099) — https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm"
+        ],
+        "cited_chunk_ids": []
+      }
+    },
+    {
+      "id": "q10_jpm_total_net_revenue",
+      "question": "What was JPMorgan Chase's total net revenue for 2023?",
+      "category": "factual_financial",
+      "ticker": "JPM",
+      "retrieval": {
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "keyword_recall": 0.0,
+        "first_hit_rank": 1,
+        "retrieved_sources": [
+          "JPM_2023",
+          "JPM_2023",
+          "JPM_2023",
+          "JPM_2023",
+          "JPM_2023"
+        ]
+      },
+      "generation": {
+        "grounding_score": 0.0,
+        "citation_valid": 1.0,
+        "cited_chunk_count": 0,
+        "found_keywords": [],
+        "answer_preview": "JPMorgan Chase reported net interest income of $90,856 million and non‑interest revenue of $65,816 million for 2023. Combined, this gives total net re"
+      },
+      "raw_generation": {
+        "answer": "JPMorgan Chase reported net interest income of $90,856 million and non‑interest revenue of $65,816 million for 2023. Combined, this gives total net revenue of approximately **$156,672 million** (about $156.7 billion) for the year 2023【3†L1-L4】.",
+        "citations": [
+          "[1] JPMORGAN CHASE & CO (JPM) FY2023 10-K (JPM_2023_0183) — https://www.sec.gov/Archives/edgar/data/19617/000001961724000225/jpm-20231231.htm",
+          "[2] JPMORGAN CHASE & CO (JPM) FY2023 10-K (JPM_2023_0002) — https://www.sec.gov/Archives/edgar/data/19617/000001961724000225/jpm-20231231.htm",
+          "[3] JPMORGAN CHASE & CO (JPM) FY2023 10-K (JPM_2023_0333) — https://www.sec.gov/Archives/edgar/data/19617/000001961724000225/jpm-20231231.htm",
+          "[4] JPMORGAN CHASE & CO (JPM) FY2023 10-K (JPM_2023_0120) — https://www.sec.gov/Archives/edgar/data/19617/000001961724000225/jpm-20231231.htm",
+          "[5] JPMORGAN CHASE & CO (JPM) FY2023 10-K (JPM_2023_0072) — https://www.sec.gov/Archives/edgar/data/19617/000001961724000225/jpm-20231231.htm"
+        ],
+        "cited_chunk_ids": []
+      }
+    },
+    {
+      "id": "q11_jpm_net_income",
+      "question": "What was JPMorgan Chase's net income in 2023?",
+      "category": "factual_financial",
+      "ticker": "JPM",
+      "retrieval": {
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "keyword_recall": 1.0,
+        "first_hit_rank": 1,
+        "retrieved_sources": [
+          "JPM_2023",
+          "JPM_2023",
+          "JPM_2023",
+          "JPM_2023",
+          "JPM_2023"
+        ]
+      },
+      "generation": {
+        "grounding_score": 1.0,
+        "citation_valid": 1.0,
+        "cited_chunk_count": 0,
+        "found_keywords": [
+          "49,552"
+        ],
+        "answer_preview": "JPMorgan Chase reported net income of **$49,552 million** for 2023【1†L9-L12】."
+      },
+      "raw_generation": {
+        "answer": "JPMorgan Chase reported net income of **$49,552 million** for 2023【1†L9-L12】.",
+        "citations": [
+          "[1] JPMORGAN CHASE & CO (JPM) FY2023 10-K (JPM_2023_0183) — https://www.sec.gov/Archives/edgar/data/19617/000001961724000225/jpm-20231231.htm",
+          "[2] JPMORGAN CHASE & CO (JPM) FY2023 10-K (JPM_2023_0002) — https://www.sec.gov/Archives/edgar/data/19617/000001961724000225/jpm-20231231.htm",
+          "[3] JPMORGAN CHASE & CO (JPM) FY2023 10-K (JPM_2023_0127) — https://www.sec.gov/Archives/edgar/data/19617/000001961724000225/jpm-20231231.htm",
+          "[4] JPMORGAN CHASE & CO (JPM) FY2023 10-K (JPM_2023_0072) — https://www.sec.gov/Archives/edgar/data/19617/000001961724000225/jpm-20231231.htm",
+          "[5] JPMORGAN CHASE & CO (JPM) FY2023 10-K (JPM_2023_0094) — https://www.sec.gov/Archives/edgar/data/19617/000001961724000225/jpm-20231231.htm"
+        ],
+        "cited_chunk_ids": []
+      }
+    },
+    {
+      "id": "q12_wmt_total_revenue",
+      "question": "What were Walmart's total revenues in fiscal year 2023?",
+      "category": "factual_financial",
+      "ticker": "WMT",
+      "retrieval": {
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "keyword_recall": 0.0,
+        "first_hit_rank": 1,
+        "retrieved_sources": [
+          "WMT_2023",
+          "WMT_2023",
+          "WMT_2023",
+          "WMT_2023",
+          "WMT_2023"
+        ]
+      },
+      "generation": {
+        "grounding_score": 0.0,
+        "citation_valid": 1.0,
+        "cited_chunk_count": 3,
+        "found_keywords": [],
+        "answer_preview": "Walmart’s total revenue (net sales) for fiscal 2023 was the sum of its three reporting segments:\n\n- Walmart U.S. net sales: $420,553 million  \n- Walma"
+      },
+      "raw_generation": {
+        "answer": "Walmart’s total revenue (net sales) for fiscal 2023 was the sum of its three reporting segments:\n\n- Walmart U.S. net sales: $420,553 million  \n- Walmart International net sales: $100,983 million  \n- Sam’s Club net sales: $84,345 million  \n\nTotal = $420,553 + $100,983 + $84,345 = $605,881 million (≈ $605.9 billion) [2][3][4]",
+        "citations": [
+          "[2] Walmart Inc. (WMT) FY2023 10-K (WMT_2023_0051) — https://www.sec.gov/Archives/edgar/data/104169/000010416923000020/wmt-20230131.htm",
+          "[3] Walmart Inc. (WMT) FY2023 10-K (WMT_2023_0052) — https://www.sec.gov/Archives/edgar/data/104169/000010416923000020/wmt-20230131.htm",
+          "[4] Walmart Inc. (WMT) FY2023 10-K (WMT_2023_0094) — https://www.sec.gov/Archives/edgar/data/104169/000010416923000020/wmt-20230131.htm"
+        ],
+        "cited_chunk_ids": [
+          "WMT_2023_0051",
+          "WMT_2023_0052",
+          "WMT_2023_0094"
+        ]
+      }
+    },
+    {
+      "id": "q13_aapl_supply_chain_risks",
+      "question": "What supply chain and manufacturing dependencies does Apple mention in its risk factors?",
+      "category": "qualitative_strategic",
+      "ticker": "AAPL",
+      "retrieval": {
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "keyword_recall": 1.0,
+        "first_hit_rank": 1,
+        "retrieved_sources": [
+          "AAPL_2023",
+          "AAPL_2023",
+          "AAPL_2023",
+          "AAPL_2023",
+          "AAPL_2023"
+        ]
+      },
+      "generation": {
+        "grounding_score": 1.0,
+        "citation_valid": 1.0,
+        "cited_chunk_count": 4,
+        "found_keywords": [
+          "outsourcing",
+          "China",
+          "manufacturing",
+          "supply"
+        ],
+        "answer_preview": "Apple’s risk factors note that its supply chain and manufacturing are heavily dependent on external partners and third‑party inputs:\n\n* Apple outsourc"
+      },
+      "raw_generation": {
+        "answer": "Apple’s risk factors note that its supply chain and manufacturing are heavily dependent on external partners and third‑party inputs:\n\n* Apple outsources virtually all component and product manufacturing and logistics to a small number of outsourcing partners, most of which are located outside the United States – primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam [2][5].\n\n* Many of these partners are single‑source or limited‑source suppliers, so a failure at any one of them could disrupt the cost or supply of components or finished goods [2].\n\n* Apple relies on long‑term purchase commitments and inventory pre‑payments for components, and it builds inventory in advance of product announcements; inaccurate forecasts can lead to excess or insufficient components [1][2].\n\n* A significant portion of Apple’s components (including semiconductors) are sourced from limited suppliers and are subject to industry‑wide shortages and commodity‑price fluctuations [2].\n\n* Apple’s manufacturing process equipment is often held at its outsourcing partners, and pre‑payments to suppliers create exposure if those partners experience severe financial problems or other disruptions [2].\n\n* The company’s supply chain is vulnerable to natural and man‑made disasters, geopolitical events, trade restrictions, tariffs, labor or environmental issues, and other disruptions at the partner locations [2][5].\n\n* Apple also depends on third‑party intellectual property licenses for many of its products and services; loss of those licenses could affect its ability to manufacture and sell its products [1][4].",
+        "citations": [
+          "[2] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0010) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[5] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0007) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[1] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0012) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[4] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0005) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm"
+        ],
+        "cited_chunk_ids": [
+          "AAPL_2023_0010",
+          "AAPL_2023_0007",
+          "AAPL_2023_0012",
+          "AAPL_2023_0005"
+        ]
+      }
+    },
+    {
+      "id": "q14_msft_ai_risks",
+      "question": "What risks does Microsoft identify regarding its artificial intelligence (AI) investments?",
+      "category": "qualitative_strategic",
+      "ticker": "MSFT",
+      "retrieval": {
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "keyword_recall": 1.0,
+        "first_hit_rank": 1,
+        "retrieved_sources": [
+          "MSFT_2023",
+          "MSFT_2023",
+          "MSFT_2023",
+          "MSFT_2023",
+          "MSFT_2023"
+        ]
+      },
+      "generation": {
+        "grounding_score": 1.0,
+        "citation_valid": 1.0,
+        "cited_chunk_count": 3,
+        "found_keywords": [
+          "AI",
+          "costs"
+        ],
+        "answer_preview": "Microsoft says its AI work carries a number of distinct risks, including:\n\n* **Technical and product‑related risks** – AI models or training methods m"
+      },
+      "raw_generation": {
+        "answer": "Microsoft says its AI work carries a number of distinct risks, including:\n\n* **Technical and product‑related risks** – AI models or training methods may be flawed, data sets may be incomplete, biased or over‑broad, and AI‑generated content could be offensive, illegal or otherwise harmful. These problems could cause product failures, outages or loss of customer data and damage Microsoft’s reputation [1].\n\n* **Regulatory and legal risks** – Deploying AI could expose the company to new or existing data‑protection, privacy, intellectual‑property and other laws, as well as proposed AI‑specific legislation in jurisdictions such as the EU, leading to regulatory action or legal liability [1][2].\n\n* **Brand and reputational risk** – Unintended or controversial uses of AI (e.g., impacts on human rights, employment or privacy) could generate public backlash, brand harm and loss of users or advertisers [1][2].\n\n* **Commercial and financial risk** – AI investments are speculative; new AI‑enabled products may not be perceived as valuable, may not generate significant revenue for years, and could have lower operating margins than Microsoft’s historical businesses. High spending on AI infrastructure (datacenters, GPUs, etc.) could increase operating costs and compress margins [2][3].\n\n* **Data‑handling and privacy risk** – Microsoft’s data‑handling practices across AI‑enabled services are under scrutiny, and mis‑management could trigger regulatory or public‑reaction pressures [2].\n\n* **Supply‑chain and operational risk** – AI services require large amounts of compute hardware (e.g., GPUs). Limited qualified suppliers or disruptions could affect Microsoft’s ability to deliver AI‑driven offerings [3].\n\nThese risks together could “adversely affect our consolidated financial statements” if they materialize [1][2][3].",
+        "citations": [
+          "[1] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0030) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+          "[2] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0024) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+          "[3] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0041) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm"
+        ],
+        "cited_chunk_ids": [
+          "MSFT_2023_0030",
+          "MSFT_2023_0024",
+          "MSFT_2023_0041"
+        ]
+      }
+    },
+    {
+      "id": "q15_compare_aapl_msft_revenue",
+      "question": "Compare the total revenues of Apple and Microsoft in fiscal year 2023. Which company had higher revenue?",
+      "category": "comparative",
+      "ticker": null,
+      "retrieval": {
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "keyword_recall": 1.0,
+        "first_hit_rank": 1,
+        "retrieved_sources": [
+          "AAPL_2023",
+          "AAPL_2023",
+          "MSFT_2023",
+          "TSLA_2023",
+          "MSFT_2023"
+        ]
+      },
+      "generation": {
+        "grounding_score": 1.0,
+        "citation_valid": 1.0,
+        "cited_chunk_count": 0,
+        "found_keywords": [
+          "383,285",
+          "Apple"
+        ],
+        "answer_preview": "Apple reported total net sales of **$383,285 million** for fiscal 2023【2†L1-L7】.  \nMicrosoft reported total revenue of **$53,813 million** for fiscal "
+      },
+      "raw_generation": {
+        "answer": "Apple reported total net sales of **$383,285 million** for fiscal 2023【2†L1-L7】.  \nMicrosoft reported total revenue of **$53,813 million** for fiscal 2023【5†L1-L4】.  \n\nTherefore, Apple’s FY 2023 revenue was substantially higher than Microsoft’s.",
+        "citations": [
+          "[1] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0029) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[2] Apple Inc. (AAPL) FY2023 10-K (AAPL_2023_0036) — https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "[3] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0041) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+          "[4] Tesla, Inc. (TSLA) FY2023 10-K (TSLA_2023_0047) — https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm",
+          "[5] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0078) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm"
+        ],
+        "cited_chunk_ids": []
+      }
+    },
+    {
+      "id": "q16_negative_amazon_revenue",
+      "question": "What were Amazon's AWS cloud revenues in fiscal year 2023?",
+      "category": "negative_refusal",
+      "ticker": "AMZN",
+      "retrieval": {
+        "hit_at_1": 1.0,
+        "hit_at_3": 1.0,
+        "hit_at_k": 1.0,
+        "mrr": 1.0,
+        "keyword_recall": 1.0,
+        "first_hit_rank": 0,
+        "retrieved_sources": [
+          "MSFT_2023",
+          "MSFT_2023",
+          "MSFT_2023",
+          "TSLA_2023",
+          "MSFT_2023"
+        ]
+      },
+      "generation": {
+        "grounding_score": 1.0,
+        "citation_valid": 1.0,
+        "cited_chunk_count": 5,
+        "refusal_accurate": true,
+        "answer_preview": "I cannot determine Amazon’s AWS cloud revenues for fiscal year 2023 from the provided excerpts, as they contain only Microsoft and Tesla information a"
+      },
+      "raw_generation": {
+        "answer": "I cannot determine Amazon’s AWS cloud revenues for fiscal year 2023 from the provided excerpts, as they contain only Microsoft and Tesla information and do not include any data on Amazon or AWS. [1][2][3][4][5]",
+        "citations": [
+          "[1] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0078) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+          "[2] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0041) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+          "[3] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0047) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+          "[4] Tesla, Inc. (TSLA) FY2023 10-K (TSLA_2023_0047) — https://www.sec.gov/Archives/edgar/data/1318605/000162828024002390/tsla-20231231.htm",
+          "[5] MICROSOFT CORP (MSFT) FY2023 10-K (MSFT_2023_0059) — https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm"
+        ],
+        "cited_chunk_ids": [
+          "MSFT_2023_0078",
+          "MSFT_2023_0041",
+          "MSFT_2023_0047",
+          "TSLA_2023_0047",
+          "MSFT_2023_0059"
+        ]
+      }
+    }
+  ]
+}

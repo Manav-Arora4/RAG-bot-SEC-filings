@@ -1,0 +1,2 @@
+"""FinRAG-Mini source package."""
+
